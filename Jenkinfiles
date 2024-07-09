@@ -1,7 +1,7 @@
 pipeline {
   agent any
   stage{
-      stage('Clone) {
+      stage('Clone') {
           steps  {
                   git branch: 'main', credentialsId: 'GitHub', url: 'https://github.com/dang12394/eShopOnWeb.git'
                   }
